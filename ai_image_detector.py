@@ -117,7 +117,7 @@ def detect_ai_generated_face(image_path):
     print(f"Texture Artifact Score: {texture_score:.4f}")
 
     # Adjusted thresholds for your dataset
-    if symmetry_score > 0.09:
+    if symmetry_score > 0.1:
         print("Symmetry score exceeds human threshold.")
     if eye_alignment_score > 0.2:
         print("Eye alignment score exceeds human threshold.")
@@ -126,15 +126,15 @@ def detect_ai_generated_face(image_path):
 
     # Weighted scoring system
     ai_likelihood = (
-        (symmetry_score * 0.3) +
-        (eye_alignment_score * 0.4) +
-        (texture_score * 0.3)
+        (symmetry_score * 0.20) +
+        (eye_alignment_score * 0.20) +
+        (texture_score * 0.6)
     )
 
     print(ai_likelihood)
 
     # Adjusted overall threshold
-    if ai_likelihood > 0.15:  # Adjust threshold based on observed scores
+    if ai_likelihood > 0.05:  # Adjust threshold based on observed scores
         return "AI-generated face detected!"
     else:
         return "This appears to be a real human face."
@@ -147,5 +147,3 @@ while True:
         break
     result = detect_ai_generated_face(image_path)
     print(result)
-
-
