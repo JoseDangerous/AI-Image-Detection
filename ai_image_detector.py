@@ -126,8 +126,8 @@ def detect_ai_generated_face(image_path):
 
     # Weighted scoring system
     ai_likelihood = (
-        (symmetry_score * 0.20) +
-        (eye_alignment_score * 0.20) +
+        (symmetry_score * 0.2) +
+        (eye_alignment_score * 0.2) +
         (texture_score * 0.6)
     )
 
