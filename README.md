@@ -62,7 +62,7 @@
 - Adjusting thresholds for unnatural symmetry and emphasizing the texture score further enhanced the model's performance.
 
 ### 2. Feature Analysis:
-- **Symmetry Issues:** Faces with greater symmetry were more likely AI-generated. However, most faces—human and AI—were not very symmetric, making this a less critical feature.
+- **Symmetry Issues:** Faces with lower symmetry (a higher symmetry score) were more likely AI-generated. However, most faces—human and AI—were fairly symmetric, making this a less critical feature.
 - **Eye Alignment:** Misaligned eyes were a potential indicator of AI generation but were not significant in the tested images.
 - **Texture Artifacts:** The most important feature for detecting AI images, particularly for distinguishing realistic AI-generated images from human ones.
 
