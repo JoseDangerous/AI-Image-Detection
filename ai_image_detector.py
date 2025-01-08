@@ -1,4 +1,11 @@
-
+import os
+import urllib.request
+import bz2
+import numpy as np
+from PIL import Image
+import cv2
+import dlib
+from imutils import face_utils
 
 # Ensure the landmark model is available
 def ensure_landmark_model():
