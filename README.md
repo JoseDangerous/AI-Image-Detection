@@ -1,11 +1,11 @@
-# Example Submission: Investigating and Detecting AI-Generated Images
+# Detecting AI-Generated Images
 
 ---
 
 ## Step 1: Media Type Selection
 
 **Chosen Media Type:** Images  
-**Rationale:** I selected images because the visual nature of AI-generated media often presents identifiable patterns or artifacts that distinguish it from human-generated images. Exploring these features will provide insights into how AI-generated images differ from real ones.
+**Rationale:** I chose images because of their ubiquitous use, impact across cultures, and their ability to evoke emotional responses in people.
 
 ---
 
