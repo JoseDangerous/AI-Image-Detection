@@ -1,9 +1,11 @@
 # Detecting AI-Generated Images
 ---
 
-## Step 1: Media Type Selection ##
+## Step 1: Media Type Selection
 
-**Chosen Media Type:** Images  
+**Chosen Media Type:**
+Images
+
 **Rationale:**
 I chose images because of their ubiquitous use, impact across cultures, and their ability to quickly evoke emotional responses in people.
 ---
